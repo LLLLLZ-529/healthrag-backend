@@ -1,0 +1,14 @@
+# HealthRAG backend deps for CLOUD run (uvicorn server + lean set, BM25 only).
+# faiss / sentence_transformers / torch excluded: lazily imported (USE_DENSE/USE_RERANKER).
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+sqlalchemy>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+jieba>=0.42.1
+dashscope>=1.14.0
+openai>=1.0.0
+cos-python-sdk-v5>=1.9.0
