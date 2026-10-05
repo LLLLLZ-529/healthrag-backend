@@ -103,9 +103,6 @@ healthrag-backend/
 └── .gitignore
 ```
 
-## ⚠️ 相关仓库
-
-- 开发版（含更多历史文件）：[Health-RAG-ai](https://github.com/LLLLLZ-529/Health-RAG-ai) —— 建议归档，以本仓库为准。
 
 ## 📄 许可
 
