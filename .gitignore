@@ -1,4 +1,23 @@
-﻿.env
-*.db
+# Python
 __pycache__/
-pack/
+*.py[cod]
+*$py.class
+
+# 数据库
+*.db
+healthrag.db
+
+# 环境与密钥
+.env
+
+# 数据与索引（体积大或含隐私，不入库）
+data/
+vector_store/
+knowledge/
+
+# 虚拟环境
+venv/
+.venv/
+
+# 系统文件
+.DS_Store
